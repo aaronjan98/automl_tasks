@@ -32,4 +32,4 @@ with open('../csv/roof_segmentation.csv', 'w', newline='') as csvfile: #Loop thr
         # if "roof-3" == t:
         #     t = 3
         
-        writer.writerow(['TRAINING', 'gs://automl-set-up-task-aj-vcm/roof_segmentation_img/'+f, t, 0, 0, 1, 0, 1, 1, 0, 1]) #write the row to the output csv file
+        writer.writerow(['', 'gs://automl-set-up-task-aj-vcm/roof_segmentation_img/'+f, t, 0, 0, 1, 0, 1, 1, 0, 1]) #write the row to the output csv file

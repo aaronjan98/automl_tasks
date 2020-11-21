@@ -1,7 +1,6 @@
 '''
 from google.cloud import automl
 
-# TODO(developer): Uncomment and set the following variables
 project_id = "automl-set-up-task-aj"
 dataset_id = "IOD8107419411708641280"
 display_name = "roof_segmentation_20201120123026"
@@ -32,7 +31,6 @@ print("Training started...")
 
 from google.cloud import automl
 
-# TODO(developer): Uncomment and set the following variables
 operation_full_id = "projects/479717817760/locations/us-central1/operations/IOD2037187788327092224"
     # "projects/[projectId]/locations/us-central1/operations/[operationId]"
 
