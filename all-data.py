@@ -22,7 +22,7 @@ with open('../csv/roof_segmentation.csv', 'w', newline='') as csvfile: #Loop thr
     
     writer = csv.writer(csvfile, delimiter=',') #Create a writer from csv module
     for f in files: #find type of file
-        t = 'needs to be labeled'
+        t = ''
         # t = f[:-5] #cut off the .jpeg extension from file, leaving only the name
         
         # if "roof-1" == t:
